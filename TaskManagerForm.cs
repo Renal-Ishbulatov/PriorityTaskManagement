@@ -29,6 +29,7 @@ namespace PriorityTaskManagement
             this.Text = "Управление задачами с приоритетом";
             this.Width = 600;
             this.Height = 500;
+            this.BackColor = Color.Yellow;
 
             descriptionTextBox = new TextBox
             {
@@ -212,13 +213,17 @@ namespace PriorityTaskManagement
 
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TaskManagerForm));
             this.SuspendLayout();
             // 
             // TaskManagerForm
             // 
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.BackColor = System.Drawing.Color.Yellow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TaskManagerForm";
+            this.Text = "Управление задачами с приоритетом ";
             this.Load += new System.EventHandler(this.TaskManagerForm_Load);
             this.ResumeLayout(false);
 
