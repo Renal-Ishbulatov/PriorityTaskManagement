@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PriorityTaskManagement
 {
-    public partial class Form1 : Form
+    public partial class TaskManagerForm : Form
     {
-        public Form1()
+        public TaskManagerForm()
         {
             InitializeComponent();
         }

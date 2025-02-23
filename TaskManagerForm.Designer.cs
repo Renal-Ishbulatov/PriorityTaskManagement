@@ -1,6 +1,6 @@
 ﻿namespace PriorityTaskManagement
 {
-    partial class Form1
+    partial class TaskManagerForm
     {
         /// <summary>
         /// Обязательная переменная конструктора.
